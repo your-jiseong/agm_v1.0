@@ -23,6 +23,4 @@ AUTHOR(S)
 
 License
 -------
-
 Released under the MIT license (http://opensource.org/licenses/MIT).
-=======
