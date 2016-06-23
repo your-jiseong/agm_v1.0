@@ -23,7 +23,6 @@ def enable_cors(fn):
 @enable_cors
 def query():
   i_text = request.body.read()
-  print i_text
   i_json = {'conf': {}, 'queries': json.loads(i_text)}
 
   answer_num = request.query.get('answer_num')
